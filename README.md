@@ -1,1 +1,1 @@
-Live link - altschool-exam-pi.vercel.app
+Live link - https://altschool-exam-pi.vercel.app
