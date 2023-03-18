@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4D4D4D;
+  font-size: 17px;
+}
+
+.header {
+  background-color: #B46060;
+  padding: 1.5em 2.5em;
+}
+
+.header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .3s ease-in;
+}
+
+.header a:hover {
+  color: #B4B3AF;
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.landingpage {
+  font-size: 1.2rem;
+  padding: 2em 4em;
+}
+
+.landing--title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.landing--para {
+  margin-bottom : 1em
+}
+
+.main {
+  padding: 2em 3em;
+}
+
+.main--title {
+  margin: 1em 0 0;
+  text-align: center;
+}
+.main--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px , 1fr));
+}
+
+.main--grid__item {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #FFF4E0;
+}
+
+.grid--item__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: .6em;
+  font-size: .8rem;
+}
+
+.grid--item__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130px;
+}
+
+.grid--item__details a {
+  cursor: pointer;
+  color: #B46060;
+  transition: all .2s ease-in-out;
+}
+
+.grid--item__details a:hover {
+  color: #c04040;
+  transform: translateX(5px);
+}
+
+/* single repo*/
+.single--repo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single--repo__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+  border-radius: 10px;
+  width: 50%;
+  height: 300px;
+  background-color: #FFF4E0;
+}
+
+.single--repo__header {
+  display: flex;
+  margin-bottom: 2em;
+}
+.btn {
+  border: 1px solid #c04040;
+  border-radius: 5px;
+  margin-right: 25%;
+  cursor: pointer;
+}
+
+.repo--title {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+}
+
+span {
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-right: 2px;
+}
+
+.single--repo__items a {
+  text-decoration: none;
+  color: #B46060;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.single--repo__items a:hover {
+  color: #c04040;
+  transform: translateX(5px);
+  text-decoration: underline;
+}
